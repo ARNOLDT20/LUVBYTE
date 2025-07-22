@@ -1,0 +1,16 @@
+{
+  "name": "LUV BYTE-V2 XMD",
+  "description": "For deploying LUV BYTE-V2 XMD.",
+  "repository": "https://github.com/ARNOLDT20/LUVBYTE",
+  "build": {
+    "commands": {
+      "install": "yarn install",
+      "start": "yarn start"
+    }
+  },
+  "envs": {
+    "SESSION_ID": {
+      "description": "Put Your Session Id"
+    }
+  }
+}
