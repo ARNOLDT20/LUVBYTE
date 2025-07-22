@@ -1,0 +1,15 @@
+name: luv byte-v2 xmd
+services:
+  - name: luv byte-v2 xmd-service
+    type: web
+    ports:
+      - 5000
+    routes:
+      - path: "/"
+    build:
+      type: docker
+      dockerfile: ./Dockerfile
+    regions:
+      - fra
+      - sin
+      
